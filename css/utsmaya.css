@@ -1,0 +1,106 @@
+@font-face {
+  font-family: 'Lobster';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lobster'), 
+  url(https://themes.googleusercontent.com/static/fonts/lobster/v5/NIaFDq6p6eLpSvtV2DTNDQLUuEpTyoUstqEm5AMlJo4.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Cabin';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Cabin Regular'), local('Cabin-Regular'), url(http://themes.googleusercontent.com/static/fonts/cabin/v4/kJXt72Gt1LyFMZcEKAAvlKCWcynf_cDxXwCLxiixG1c.woff) format('woff');
+}
+
+body {
+  padding-top: 60px;
+  padding-bottom: 40px;
+  background-color: whitesmoke;
+}
+
+/* nav-bar related */
+.brand {
+  font-family: Lobster, Georgia, Times, serif;
+}
+
+/* header unit related */
+.hero-unit {
+  background-image: url('/assets/img/trees-large.jpg');
+  color: linen;
+}
+
+.brand-english {
+  font-family: Lobster, Georgia, Times, serif;
+  font-weight: normal;
+  font-size: 1em;
+  line-height: 1.2em;
+}
+
+.brand-hindi { 
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+
+/* workshop related */
+
+
+#overview {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+#about {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+
+#rhythm { 
+  padding-top: 40px;
+  padding-bottom: 40px;
+ }
+
+#narrative { 
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+#roleplay { 
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.navbar-inner {
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 0px;
+}
+
+footer {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.workshop-details {
+  font-family: Cabin, Helvetica, Arial, sans-serif;
+  min-height: 300px;
+}
+
+#workshop h2, h3{
+  font-family: Lobster, Georgia, Times, serif;
+  font-weight: normal;
+}
+
+#about h2, h3{
+  font-family: Lobster, Georgia, Times, serif;
+  font-weight: normal;
+}
+
+p {
+  font-family: Cabin, Helvetica, Arial, sans-serif;
+  font-size: 1.3em;
+  line-height: 1.3em;
+}
