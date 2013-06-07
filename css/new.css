@@ -14,15 +14,13 @@
 }
 
 body {
-  padding-top: 60px;
-  padding-bottom: 40px;
   background-color: whitesmoke;
 }
 
-header {
-  color: green;
-}
 
+header {
+  border-top: 5px solid green;
+}
 /* nav-bar related */
 .brand {
   font-family: Lobster, Georgia, Times, serif;
@@ -35,11 +33,28 @@ header {
   border-top-right-radius: 0px;
 }
 
-/* header unit related */
-.hero-unit {
-  background-image: url('../img/trees-large.jpg');
-  color: linen;
+tab-content {
+  min-height: 600px;
 }
+
+.nav-tabs {
+  text-align: justify;
+  margin-bottom: 0px;
+}
+
+/*
+
+.nav-tabs > li {
+  display: inline-block;
+  width: 20%;
+}
+
+.nav-tabs:after{
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
+*/
 
 .brand-english {
   font-family: Lobster, Georgia, Times, serif;
@@ -53,11 +68,15 @@ header {
   font-size: 1.2em;
 }
 
+#workshop {
+  background-color: green;
+  padding-top: 0px;
+  min-height: 550px;
+}
 
-.section {
-  padding-top: 40px;
-  padding-bottom: 20px;
-  border-bottom: 1px solid grey;
+.workshop {
+  background-color: green;
+  padding-top: 0px;
 }
 
 iframe {
@@ -79,7 +98,13 @@ h2, h3{
 p {
   padding-top: 10px;
   font-size: 1.1em;
-  /*font-family: Cabin, Helvetica, Arial, sans-serif; 
+  font-family: Cabin, Helvetica, Arial, sans-serif; 
   font-size: 1.3em;
   line-height: 1.3em;*/
 }
+
+@media (max-width: 767px) {
+  body {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
