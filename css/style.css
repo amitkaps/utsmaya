@@ -54,6 +54,7 @@
 
 body {
   background-color: whitesmoke;
+  font-family: Cabin Sketch, Helvetica, Arial, sans-serif;
   margin: 0px;
   padding: 0px;
 }
@@ -77,8 +78,11 @@ body {
   border-bottom: 3px solid black;
 }
 
-divider{
-  border: 3px;
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -95000; 
 }
 
 .brand-english {
@@ -125,6 +129,7 @@ iframe {
 .narrative  {color: maroon; } /* #800000 */
 .rhythm     {color: navy;   } /* #000080 */
 .about      {color: purple; } /* #800080 */
+.signup     {color: black;  }
 
 .topic {
   padding-top: 10px;
@@ -147,7 +152,6 @@ img {
 }
 
 h2{
-  font-family: Cabin Sketch, Georgia, Times, serif;
   font-size: 2.2em;
   font-weight: 700;
   line-height: 1.4em;
@@ -155,7 +159,6 @@ h2{
 }
 
 h3 {
-  font-family: Cabin Sketch, Georgia, Times, serif;
   font-size: 1.6em;
   font-weight: 700;
   line-height: 1.4em;
@@ -164,8 +167,7 @@ h3 {
 p {
   padding-top: 10px;
   font-size: 1.4em;
-  line-height: 1.4em;
-  font-family: Cabin Sketch, Helvetica, Arial, sans-serif; 
   font-weight: 400;
+  line-height: 1.4em;
 }
 
