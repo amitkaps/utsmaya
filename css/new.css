@@ -43,6 +43,7 @@
   src: local('Cabin Sketch Regular'), local('CabinSketch-Regular'), 
   url(http://themes.googleusercontent.com/static/fonts/cabinsketch/v5/d9fijO34zQajqQvl3YHRCaRDOzjiPcYnFooOUGCOsRk.woff) format('woff');
 }
+
 @font-face {
   font-family: 'Cabin Sketch';
   font-style: normal;
@@ -69,15 +70,11 @@ body {
 }
 
 .container-fluid {
-  max-width: 767px;
+  max-width: 787px;
   margin: 0 auto;
   padding: 0px 10px 0px 10px;
-  border-top: 3px solid green;
-  border-bottom: 3px solid green;
-}
-
-header {
-  border-bottom: 3px teal green;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
 }
 
 divider{
@@ -87,15 +84,14 @@ divider{
 .brand-english {
   font-family: Lobster, Georgia, Times, serif;
   font-weight: normal;
-  font-size: 1.6em;
-  color: green;
+  font-size: 1.8em;
   line-height: 1em;
 }
 
 .brand-hindi { 
   font-weight: bold;
   font-size: 1.2em;
-  color: green;
+  line-height: 1em;
 }
 
 a {
@@ -124,10 +120,11 @@ iframe {
 
 
 
-.workshop   {color: gray;   } /* #808080 */
+.workshop   {color: teal;   } /* #008080 */
 .roleplay   {color: olive;  } /* #808000 */
 .narrative  {color: maroon; } /* #800000 */
 .rhythm     {color: navy;   } /* #000080 */
+.about      {color: purple; } /* #800080 */
 
 .topic {
   padding-top: 10px;
@@ -138,7 +135,7 @@ iframe {
 
 .topic-video {
   float: right;
-  /*padding-left: 15px;*/
+  padding-left: 15px;
 }
 
 .topic-details {
@@ -151,22 +148,23 @@ img {
 
 h2{
   font-family: Cabin Sketch, Georgia, Times, serif;
-  font-size: 2em;
+  font-size: 2.2em;
   font-weight: 700;
   line-height: 1.4em;
 }
 
 h3 {
   font-family: Cabin Sketch, Georgia, Times, serif;
-  font-size: 1.6em;
+  font-size: 1.8em;
   font-weight: 700;
   line-height: 1.4em;
 }
 
 p {
   padding-top: 10px;
-  font-size: 1.3em;
-  line-height: 1.6em;
-  font-family: Cabin, Helvetica, Arial, sans-serif; 
+  font-size: 1.4em;
+  line-height: 1.4em;
+  font-family: Cabin Sketch, Helvetica, Arial, sans-serif; 
+  font-weight: 400;
 }
 
