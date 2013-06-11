@@ -55,6 +55,7 @@
 body {
   background-color: whitesmoke;
   font-family: Cabin Sketch, Helvetica, Arial, sans-serif;
+  font-size: 20px; /* Scale origin */
   margin: 0px;
   padding: 0px;
 }
@@ -85,17 +86,18 @@ canvas {
   z-index: -95000; 
 }
 
-.brand-english {
+h1 {
   font-family: Lobster, Georgia, Times, serif;
+  font-size: 3em  
+}
+
+.brand-english {
   font-weight: normal;
-  font-size: 1.7em;
-  line-height: 1em;
 }
 
 .brand-hindi { 
   font-weight: bold;
-  font-size: 1.2em;
-  line-height: 1em;
+  font-size: 1.1em;
 }
 
 a {
@@ -113,7 +115,7 @@ a:hover {
 
 .design {
   font-family: WCRhesusABtaRegular;
-  font-size: 0.75em;
+  font-size: 0.7em;
 }
 
 iframe {
@@ -129,7 +131,7 @@ iframe {
 .narrative  {color: maroon; } /* #800000 */
 .rhythm     {color: navy;   } /* #000080 */
 .about      {color: purple; } /* #800080 */
-.signup     {color: black;  }
+.contact    {color: black;  }
 
 .topic {
   padding-top: 10px;
@@ -152,21 +154,22 @@ iframe {
 }
 
 h2{
-  font-size: 2.2em;
+  font-size: 1.8em;
   font-weight: 700;
   line-height: 1.4em;
-  text-transform: uppercase;;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
 }
 
 h3 {
-  font-size: 1.6em;
+  font-size: 1.4em;
   font-weight: 700;
   line-height: 1.4em;
 }
 
 p {
   padding-top: 10px;
-  font-size: 1.4em;
+  font-size: 1em;
   font-weight: 400;
   line-height: 1.4em;
 }
