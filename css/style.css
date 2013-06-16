@@ -73,6 +73,9 @@ body {
   line-height: 1em;
   font-size: 1em;
   border: 2px solid #fafafa;  
+  background: #fefefe;
+  box-shadow: 0 1px 2px rgba(34,25,25,0.4);
+  margin: 0 2px 15px;
 }
 .buy {
   float: right;
