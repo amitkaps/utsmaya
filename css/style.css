@@ -10,14 +10,6 @@
 }
 
 @font-face {
-  font-family: 'Lobster';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Lobster'), 
-  url(https://themes.googleusercontent.com/static/fonts/lobster/v5/NIaFDq6p6eLpSvtV2DTNDQLUuEpTyoUstqEm5AMlJo4.woff) format('woff');
-}
-
-@font-face {
   font-family: 'Cabin';
   font-style: normal;
   font-weight: 400;
@@ -83,12 +75,13 @@ body {
 }
 
 h1 {
-  font-family: Lobster, Georgia, Times, serif;
+  /*font-family: Lobster, Georgia, Times, serif;
+  font-family: CabinSketch-Bold , Helvetica, Arial, sans-serif; */
   font-size: 3em  
 }  
 
 .brand-english {
-  font-weight: normal;
+  font-weight: 700;
 }
 
 .brand-hindi { 
