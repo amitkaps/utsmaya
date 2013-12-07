@@ -113,7 +113,11 @@ iframe {
   -webkit-box-shadow: 0 0 30px 5px #999;
 }
 
-
+.pdf {
+  border: 5px solid black;
+  -moz-box-shadow: 0 0 30px 5px #999;
+  -webkit-box-shadow: 0 0 30px 5px #999;
+}
 
 .workshop   {color: teal;   } /* #008080 */
 .roleplay   {color: olive;  } /* #808000 */
@@ -121,6 +125,7 @@ iframe {
 .rhythm     {color: navy;   } /* #000080 */
 .about      {color: purple; } /* #800080 */
 .contact    {color: black;  }
+.brochure   {color: black;  }
 
 .topic {
   padding-top: 10px;
